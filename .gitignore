@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated figures and tables
+figures/
+tables/
+
+# Models (too large for GitHub)
+models/deberta_fold_*/
+
+# Upload models script
+upload_models.py
+
+# Big data files
+data/train.json
+data/fold_*_train.json
+
+# Table Scripts
+tables/*.py
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2889 @@
+{
+  "per_fold": {
+    "fold_0": {
+      "rule": {
+        "NAME_STUDENT": {
+          "precision": 0.016469745793054064,
+          "recall": 0.34980988593155893,
+          "f1": 0.031458368951957597,
+          "support": 263,
+          "predicted": 5586,
+          "true_positives": 92,
+          "false_positives": 5494,
+          "false_negatives": 171
+        },
+        "EMAIL": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3,
+          "predicted": 4,
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 2
+        },
+        "ID_NUM": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665,
+          "support": 10,
+          "predicted": 8,
+          "true_positives": 6,
+          "false_positives": 2,
+          "false_negatives": 4
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.4057971014492754,
+          "recall": 1.0,
+          "f1": 0.577319587628866,
+          "support": 28,
+          "predicted": 69,
+          "true_positives": 28,
+          "false_positives": 41,
+          "false_negatives": 0
+        }
+      },
+      "presidio": {
+        "NAME_STUDENT": {
+          "precision": 0.17185929648241205,
+          "recall": 0.6501901140684411,
+          "f1": 0.2718600953895071,
+          "support": 263,
+          "predicted": 995,
+          "true_positives": 171,
+          "false_positives": 824,
+          "false_negatives": 92
+        },
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "PHONE_NUM": {
+          "precision": 0.1111111111111111,
+          "recall": 0.5,
+          "f1": 0.1818181818181818,
+          "support": 2,
+          "predicted": 9,
+          "true_positives": 1,
+          "false_positives": 8,
+          "false_negatives": 1
+        },
+        "ID_NUM": {
+          "precision": 0.022222222222222223,
+          "recall": 0.1,
+          "f1": 0.03636363636363636,
+          "support": 10,
+          "predicted": 45,
+          "true_positives": 1,
+          "false_positives": 44,
+          "false_negatives": 9
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.20588235294117646,
+          "recall": 1.0,
+          "f1": 0.34146341463414637,
+          "support": 28,
+          "predicted": 136,
+          "true_positives": 28,
+          "false_positives": 108,
+          "false_negatives": 0
+        }
+      },
+      "customdeberta": {
+        "NAME_STUDENT": {
+          "precision": 0.9288702928870293,
+          "recall": 0.844106463878327,
+          "f1": 0.8844621513944223,
+          "support": 263,
+          "predicted": 239,
+          "true_positives": 222,
+          "false_positives": 17,
+          "false_negatives": 41
+        },
+        "EMAIL": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3,
+          "predicted": 4,
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "support": 2,
+          "predicted": 3,
+          "true_positives": 1,
+          "false_positives": 2,
+          "false_negatives": 1
+        },
+        "ID_NUM": {
+          "precision": 0.8181818181818182,
+          "recall": 0.9,
+          "f1": 0.8571428571428572,
+          "support": 10,
+          "predicted": 11,
+          "true_positives": 9,
+          "false_positives": 2,
+          "false_negatives": 1
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.78125,
+          "recall": 0.8928571428571429,
+          "f1": 0.8333333333333334,
+          "support": 28,
+          "predicted": 32,
+          "true_positives": 25,
+          "false_positives": 7,
+          "false_negatives": 3
+        }
+      }
+    },
+    "fold_1": {
+      "rule": {
+        "NAME_STUDENT": {
+          "precision": 0.01632073798119567,
+          "recall": 0.3129251700680272,
+          "f1": 0.031023436182768507,
+          "support": 294,
+          "predicted": 5637,
+          "true_positives": 92,
+          "false_positives": 5545,
+          "false_negatives": 202
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 14,
+          "predicted": 14,
+          "true_positives": 14,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 4
+        },
+        "ID_NUM": {
+          "precision": 0.7419354838709677,
+          "recall": 0.8518518518518519,
+          "f1": 0.7931034482758621,
+          "support": 27,
+          "predicted": 31,
+          "true_positives": 23,
+          "false_positives": 8,
+          "false_negatives": 4
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 2
+        },
+        "URL_PERSONAL": {
+          "precision": 0.3023255813953488,
+          "recall": 0.9285714285714286,
+          "f1": 0.456140350877193,
+          "support": 28,
+          "predicted": 86,
+          "true_positives": 26,
+          "false_positives": 60,
+          "false_negatives": 2
+        }
+      },
+      "presidio": {
+        "NAME_STUDENT": {
+          "precision": 0.18670309653916212,
+          "recall": 0.6972789115646258,
+          "f1": 0.29454022988505746,
+          "support": 294,
+          "predicted": 1098,
+          "true_positives": 205,
+          "false_positives": 893,
+          "false_negatives": 89
+        },
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 14,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 14
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 4
+        },
+        "ID_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 27,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 27
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 2
+        },
+        "URL_PERSONAL": {
+          "precision": 0.14285714285714285,
+          "recall": 0.9642857142857143,
+          "f1": 0.24884792626728106,
+          "support": 28,
+          "predicted": 189,
+          "true_positives": 27,
+          "false_positives": 162,
+          "false_negatives": 1
+        }
+      },
+      "customdeberta": {
+        "NAME_STUDENT": {
+          "precision": 0.9959677419354839,
+          "recall": 0.8401360544217688,
+          "f1": 0.911439114391144,
+          "support": 294,
+          "predicted": 248,
+          "true_positives": 247,
+          "false_positives": 1,
+          "false_negatives": 47
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1": 0.962962962962963,
+          "support": 14,
+          "predicted": 13,
+          "true_positives": 13,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 4
+        },
+        "ID_NUM": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 27,
+          "predicted": 27,
+          "true_positives": 27,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted": 2,
+          "true_positives": 2,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.7727272727272727,
+          "recall": 0.6071428571428571,
+          "f1": 0.68,
+          "support": 28,
+          "predicted": 22,
+          "true_positives": 17,
+          "false_positives": 5,
+          "false_negatives": 11
+        }
+      }
+    },
+    "fold_2": {
+      "rule": {
+        "NAME_STUDENT": {
+          "precision": 0.013273509067115349,
+          "recall": 0.29707112970711297,
+          "f1": 0.02541159627773801,
+          "support": 239,
+          "predicted": 5349,
+          "true_positives": 71,
+          "false_positives": 5278,
+          "false_negatives": 168
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "predicted": 5,
+          "true_positives": 5,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.625,
+          "recall": 0.4166666666666667,
+          "f1": 0.5,
+          "support": 12,
+          "predicted": 8,
+          "true_positives": 5,
+          "false_positives": 3,
+          "false_negatives": 7
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "URL_PERSONAL": {
+          "precision": 0.4666666666666667,
+          "recall": 1.0,
+          "f1": 0.6363636363636364,
+          "support": 21,
+          "predicted": 45,
+          "true_positives": 21,
+          "false_positives": 24,
+          "false_negatives": 0
+        }
+      },
+      "presidio": {
+        "NAME_STUDENT": {
+          "precision": 0.16480162767039674,
+          "recall": 0.6778242677824268,
+          "f1": 0.265139116202946,
+          "support": 239,
+          "predicted": 983,
+          "true_positives": 162,
+          "false_positives": 821,
+          "false_negatives": 77
+        },
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 5
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 12,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 12
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "URL_PERSONAL": {
+          "precision": 0.20588235294117646,
+          "recall": 1.0,
+          "f1": 0.34146341463414637,
+          "support": 21,
+          "predicted": 102,
+          "true_positives": 21,
+          "false_positives": 81,
+          "false_negatives": 0
+        }
+      },
+      "customdeberta": {
+        "NAME_STUDENT": {
+          "precision": 0.9906976744186047,
+          "recall": 0.891213389121339,
+          "f1": 0.9383259911894274,
+          "support": 239,
+          "predicted": 215,
+          "true_positives": 213,
+          "false_positives": 2,
+          "false_negatives": 26
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "predicted": 5,
+          "true_positives": 5,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.8181818181818182,
+          "recall": 0.75,
+          "f1": 0.7826086956521738,
+          "support": 12,
+          "predicted": 11,
+          "true_positives": 9,
+          "false_positives": 2,
+          "false_negatives": 3
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted": 3,
+          "true_positives": 3,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.8125,
+          "recall": 0.6190476190476191,
+          "f1": 0.7027027027027026,
+          "support": 21,
+          "predicted": 16,
+          "true_positives": 13,
+          "false_positives": 3,
+          "false_negatives": 8
+        }
+      }
+    },
+    "fold_3": {
+      "rule": {
+        "NAME_STUDENT": {
+          "precision": 0.016258741258741258,
+          "recall": 0.2852760736196319,
+          "f1": 0.030764141581210717,
+          "support": 326,
+          "predicted": 5720,
+          "true_positives": 93,
+          "false_positives": 5627,
+          "false_negatives": 233
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 14,
+          "predicted": 14,
+          "true_positives": 14,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.7391304347826086,
+          "recall": 0.9444444444444444,
+          "f1": 0.8292682926829269,
+          "support": 18,
+          "predicted": 23,
+          "true_positives": 17,
+          "false_positives": 6,
+          "false_negatives": 1
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.3114754098360656,
+          "recall": 1.0,
+          "f1": 0.475,
+          "support": 19,
+          "predicted": 61,
+          "true_positives": 19,
+          "false_positives": 42,
+          "false_negatives": 0
+        }
+      },
+      "presidio": {
+        "NAME_STUDENT": {
+          "precision": 0.18621307072515667,
+          "recall": 0.6380368098159509,
+          "f1": 0.28828828828828823,
+          "support": 326,
+          "predicted": 1117,
+          "true_positives": 208,
+          "false_positives": 909,
+          "false_negatives": 118
+        },
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 14,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 14
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 18,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 18
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.10465116279069768,
+          "recall": 0.9473684210526315,
+          "f1": 0.18848167539267013,
+          "support": 19,
+          "predicted": 172,
+          "true_positives": 18,
+          "false_positives": 154,
+          "false_negatives": 1
+        }
+      },
+      "customdeberta": {
+        "NAME_STUDENT": {
+          "precision": 0.9809160305343512,
+          "recall": 0.7883435582822086,
+          "f1": 0.8741496598639455,
+          "support": 326,
+          "predicted": 262,
+          "true_positives": 257,
+          "false_positives": 5,
+          "false_negatives": 69
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 14,
+          "predicted": 14,
+          "true_positives": 14,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714,
+          "support": 18,
+          "predicted": 17,
+          "true_positives": 17,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.9,
+          "recall": 0.47368421052631576,
+          "f1": 0.6206896551724138,
+          "support": 19,
+          "predicted": 10,
+          "true_positives": 9,
+          "false_positives": 1,
+          "false_negatives": 10
+        }
+      }
+    },
+    "fold_4": {
+      "rule": {
+        "NAME_STUDENT": {
+          "precision": 0.015606034333275533,
+          "recall": 0.37037037037037035,
+          "f1": 0.029950083194675542,
+          "support": 243,
+          "predicted": 5767,
+          "true_positives": 90,
+          "false_positives": 5677,
+          "false_negatives": 153
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted": 3,
+          "true_positives": 3,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.5,
+          "recall": 0.7272727272727273,
+          "f1": 0.5925925925925926,
+          "support": 11,
+          "predicted": 16,
+          "true_positives": 8,
+          "false_positives": 8,
+          "false_negatives": 3
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "URL_PERSONAL": {
+          "precision": 0.25925925925925924,
+          "recall": 1.0,
+          "f1": 0.4117647058823529,
+          "support": 14,
+          "predicted": 54,
+          "true_positives": 14,
+          "false_positives": 40,
+          "false_negatives": 0
+        }
+      },
+      "presidio": {
+        "NAME_STUDENT": {
+          "precision": 0.16372549019607843,
+          "recall": 0.6872427983539094,
+          "f1": 0.26444972288202695,
+          "support": 243,
+          "predicted": 1020,
+          "true_positives": 167,
+          "false_positives": 853,
+          "false_negatives": 76
+        },
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 3
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 11,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 11
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "URL_PERSONAL": {
+          "precision": 0.1044776119402985,
+          "recall": 1.0,
+          "f1": 0.18918918918918917,
+          "support": 14,
+          "predicted": 134,
+          "true_positives": 14,
+          "false_positives": 120,
+          "false_negatives": 0
+        }
+      },
+      "customdeberta": {
+        "NAME_STUDENT": {
+          "precision": 0.9901960784313726,
+          "recall": 0.831275720164609,
+          "f1": 0.9038031319910514,
+          "support": 243,
+          "predicted": 204,
+          "true_positives": 202,
+          "false_positives": 2,
+          "false_negatives": 41
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted": 3,
+          "true_positives": 3,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "ID_NUM": {
+          "precision": 0.8333333333333334,
+          "recall": 0.9090909090909091,
+          "f1": 0.8695652173913043,
+          "support": 11,
+          "predicted": 12,
+          "true_positives": 10,
+          "false_positives": 2,
+          "false_negatives": 1
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 1
+        },
+        "USERNAME": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted": 1,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 0
+        },
+        "URL_PERSONAL": {
+          "precision": 0.8461538461538461,
+          "recall": 0.7857142857142857,
+          "f1": 0.8148148148148148,
+          "support": 14,
+          "predicted": 13,
+          "true_positives": 11,
+          "false_positives": 2,
+          "false_negatives": 3
+        }
+      }
+    }
+  },
+  "summary": {
+    "rule": {
+      "NAME_STUDENT": {
+        "precision": {
+          "mean": 0.015585753686676376,
+          "std": 0.0011934356048649856,
+          "values": [
+            0.016469745793054064,
+            0.01632073798119567,
+            0.013273509067115349,
+            0.016258741258741258,
+            0.015606034333275533
+          ]
+        },
+        "recall": {
+          "mean": 0.3230905259393403,
+          "std": 0.03212346224283977,
+          "values": [
+            0.34980988593155893,
+            0.3129251700680272,
+            0.29707112970711297,
+            0.2852760736196319,
+            0.37037037037037035
+          ]
+        },
+        "f1": {
+          "mean": 0.029721525237670077,
+          "std": 0.0022102657494526222,
+          "values": [
+            0.031458368951957597,
+            0.031023436182768507,
+            0.02541159627773801,
+            0.030764141581210717,
+            0.029950083194675542
+          ]
+        },
+        "support": {
+          "total": 1365,
+          "per_fold": [
+            263,
+            294,
+            239,
+            326,
+            243
+          ]
+        },
+        "predicted": {
+          "total": 28059,
+          "per_fold": [
+            5586,
+            5637,
+            5349,
+            5720,
+            5767
+          ]
+        },
+        "true_positives": {
+          "total": 438,
+          "per_fold": [
+            92,
+            92,
+            71,
+            93,
+            90
+          ]
+        },
+        "false_positives": {
+          "total": 27621,
+          "per_fold": [
+            5494,
+            5545,
+            5278,
+            5627,
+            5677
+          ]
+        },
+        "false_negatives": {
+          "total": 927,
+          "per_fold": [
+            171,
+            202,
+            168,
+            233,
+            153
+          ]
+        }
+      },
+      "EMAIL": {
+        "precision": {
+          "mean": 0.95,
+          "std": 0.09999999999999999,
+          "values": [
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "recall": {
+          "mean": 1.0,
+          "std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.9714285714285715,
+          "std": 0.05714285714285716,
+          "values": [
+            0.8571428571428571,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "support": {
+          "total": 39,
+          "per_fold": [
+            3,
+            14,
+            5,
+            14,
+            3
+          ]
+        },
+        "predicted": {
+          "total": 40,
+          "per_fold": [
+            4,
+            14,
+            5,
+            14,
+            3
+          ]
+        },
+        "true_positives": {
+          "total": 39,
+          "per_fold": [
+            3,
+            14,
+            5,
+            14,
+            3
+          ]
+        },
+        "false_positives": {
+          "total": 1,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "PHONE_NUM": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            2,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 6,
+          "per_fold": [
+            2,
+            4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ID_NUM": {
+        "precision": {
+          "mean": 0.6712131837307153,
+          "std": 0.09723309290479287,
+          "values": [
+            0.75,
+            0.7419354838709677,
+            0.625,
+            0.7391304347826086,
+            0.5
+          ]
+        },
+        "recall": {
+          "mean": 0.708047138047138,
+          "std": 0.18628465777272787,
+          "values": [
+            0.6,
+            0.8518518518518519,
+            0.4166666666666667,
+            0.9444444444444444,
+            0.7272727272727273
+          ]
+        },
+        "f1": {
+          "mean": 0.6763262000436097,
+          "std": 0.12265705183904507,
+          "values": [
+            0.6666666666666665,
+            0.7931034482758621,
+            0.5,
+            0.8292682926829269,
+            0.5925925925925926
+          ]
+        },
+        "support": {
+          "total": 78,
+          "per_fold": [
+            10,
+            27,
+            12,
+            18,
+            11
+          ]
+        },
+        "predicted": {
+          "total": 86,
+          "per_fold": [
+            8,
+            31,
+            8,
+            23,
+            16
+          ]
+        },
+        "true_positives": {
+          "total": 59,
+          "per_fold": [
+            6,
+            23,
+            5,
+            17,
+            8
+          ]
+        },
+        "false_positives": {
+          "total": 27,
+          "per_fold": [
+            2,
+            8,
+            3,
+            6,
+            8
+          ]
+        },
+        "false_negatives": {
+          "total": 19,
+          "per_fold": [
+            4,
+            4,
+            7,
+            1,
+            3
+          ]
+        }
+      },
+      "STREET_ADDRESS": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      "USERNAME": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        }
+      },
+      "URL_PERSONAL": {
+        "precision": {
+          "mean": 0.34910480372132313,
+          "std": 0.07577769728110509,
+          "values": [
+            0.4057971014492754,
+            0.3023255813953488,
+            0.4666666666666667,
+            0.3114754098360656,
+            0.25925925925925924
+          ]
+        },
+        "recall": {
+          "mean": 0.9857142857142858,
+          "std": 0.02857142857142856,
+          "values": [
+            1.0,
+            0.9285714285714286,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.5113176561504097,
+          "std": 0.08278532381880359,
+          "values": [
+            0.577319587628866,
+            0.456140350877193,
+            0.6363636363636364,
+            0.475,
+            0.4117647058823529
+          ]
+        },
+        "support": {
+          "total": 110,
+          "per_fold": [
+            28,
+            28,
+            21,
+            19,
+            14
+          ]
+        },
+        "predicted": {
+          "total": 315,
+          "per_fold": [
+            69,
+            86,
+            45,
+            61,
+            54
+          ]
+        },
+        "true_positives": {
+          "total": 108,
+          "per_fold": [
+            28,
+            26,
+            21,
+            19,
+            14
+          ]
+        },
+        "false_positives": {
+          "total": 207,
+          "per_fold": [
+            41,
+            60,
+            24,
+            42,
+            40
+          ]
+        },
+        "false_negatives": {
+          "total": 2,
+          "per_fold": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "presidio": {
+      "NAME_STUDENT": {
+        "precision": {
+          "mean": 0.1746605163226412,
+          "std": 0.010030997616724657,
+          "values": [
+            0.17185929648241205,
+            0.18670309653916212,
+            0.16480162767039674,
+            0.18621307072515667,
+            0.16372549019607843
+          ]
+        },
+        "recall": {
+          "mean": 0.6701145803170708,
+          "std": 0.022435167668966284,
+          "values": [
+            0.6501901140684411,
+            0.6972789115646258,
+            0.6778242677824268,
+            0.6380368098159509,
+            0.6872427983539094
+          ]
+        },
+        "f1": {
+          "mean": 0.27685549052956515,
+          "std": 0.012325496676037386,
+          "values": [
+            0.2718600953895071,
+            0.29454022988505746,
+            0.265139116202946,
+            0.28828828828828823,
+            0.26444972288202695
+          ]
+        },
+        "support": {
+          "total": 1365,
+          "per_fold": [
+            263,
+            294,
+            239,
+            326,
+            243
+          ]
+        },
+        "predicted": {
+          "total": 5213,
+          "per_fold": [
+            995,
+            1098,
+            983,
+            1117,
+            1020
+          ]
+        },
+        "true_positives": {
+          "total": 913,
+          "per_fold": [
+            171,
+            205,
+            162,
+            208,
+            167
+          ]
+        },
+        "false_positives": {
+          "total": 4300,
+          "per_fold": [
+            824,
+            893,
+            821,
+            909,
+            853
+          ]
+        },
+        "false_negatives": {
+          "total": 452,
+          "per_fold": [
+            92,
+            89,
+            77,
+            118,
+            76
+          ]
+        }
+      },
+      "EMAIL": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 39,
+          "per_fold": [
+            3,
+            14,
+            5,
+            14,
+            3
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 39,
+          "per_fold": [
+            3,
+            14,
+            5,
+            14,
+            3
+          ]
+        }
+      },
+      "PHONE_NUM": {
+        "precision": {
+          "mean": 0.02222222222222222,
+          "std": 0.04444444444444444,
+          "values": [
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.1,
+          "std": 0.20000000000000004,
+          "values": [
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.03636363636363636,
+          "std": 0.07272727272727272,
+          "values": [
+            0.1818181818181818,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            2,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        "predicted": {
+          "total": 9,
+          "per_fold": [
+            9,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 1,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 8,
+          "per_fold": [
+            8,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 5,
+          "per_fold": [
+            1,
+            4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ID_NUM": {
+        "precision": {
+          "mean": 0.0044444444444444444,
+          "std": 0.008888888888888889,
+          "values": [
+            0.022222222222222223,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.02,
+          "std": 0.04,
+          "values": [
+            0.1,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.007272727272727273,
+          "std": 0.014545454545454545,
+          "values": [
+            0.03636363636363636,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 78,
+          "per_fold": [
+            10,
+            27,
+            12,
+            18,
+            11
+          ]
+        },
+        "predicted": {
+          "total": 45,
+          "per_fold": [
+            45,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 1,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 44,
+          "per_fold": [
+            44,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 77,
+          "per_fold": [
+            9,
+            27,
+            12,
+            18,
+            11
+          ]
+        }
+      },
+      "STREET_ADDRESS": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      "USERNAME": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        }
+      },
+      "URL_PERSONAL": {
+        "precision": {
+          "mean": 0.15275012469409838,
+          "std": 0.04558000454229047,
+          "values": [
+            0.20588235294117646,
+            0.14285714285714285,
+            0.20588235294117646,
+            0.10465116279069768,
+            0.1044776119402985
+          ]
+        },
+        "recall": {
+          "mean": 0.982330827067669,
+          "std": 0.02229167982011068,
+          "values": [
+            1.0,
+            0.9642857142857143,
+            1.0,
+            0.9473684210526315,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.26188912402348663,
+          "std": 0.068568421785386,
+          "values": [
+            0.34146341463414637,
+            0.24884792626728106,
+            0.34146341463414637,
+            0.18848167539267013,
+            0.18918918918918917
+          ]
+        },
+        "support": {
+          "total": 110,
+          "per_fold": [
+            28,
+            28,
+            21,
+            19,
+            14
+          ]
+        },
+        "predicted": {
+          "total": 733,
+          "per_fold": [
+            136,
+            189,
+            102,
+            172,
+            134
+          ]
+        },
+        "true_positives": {
+          "total": 108,
+          "per_fold": [
+            28,
+            27,
+            21,
+            18,
+            14
+          ]
+        },
+        "false_positives": {
+          "total": 625,
+          "per_fold": [
+            108,
+            162,
+            81,
+            154,
+            120
+          ]
+        },
+        "false_negatives": {
+          "total": 2,
+          "per_fold": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    "customdeberta": {
+      "NAME_STUDENT": {
+        "precision": {
+          "mean": 0.9773295636413681,
+          "std": 0.024709508070918384,
+          "values": [
+            0.9288702928870293,
+            0.9959677419354839,
+            0.9906976744186047,
+            0.9809160305343512,
+            0.9901960784313726
+          ]
+        },
+        "recall": {
+          "mean": 0.8390150371736504,
+          "std": 0.032800436132547704,
+          "values": [
+            0.844106463878327,
+            0.8401360544217688,
+            0.891213389121339,
+            0.7883435582822086,
+            0.831275720164609
+          ]
+        },
+        "f1": {
+          "mean": 0.9024360097659981,
+          "std": 0.02233469434841888,
+          "values": [
+            0.8844621513944223,
+            0.911439114391144,
+            0.9383259911894274,
+            0.8741496598639455,
+            0.9038031319910514
+          ]
+        },
+        "support": {
+          "total": 1365,
+          "per_fold": [
+            263,
+            294,
+            239,
+            326,
+            243
+          ]
+        },
+        "predicted": {
+          "total": 1168,
+          "per_fold": [
+            239,
+            248,
+            215,
+            262,
+            204
+          ]
+        },
+        "true_positives": {
+          "total": 1141,
+          "per_fold": [
+            222,
+            247,
+            213,
+            257,
+            202
+          ]
+        },
+        "false_positives": {
+          "total": 27,
+          "per_fold": [
+            17,
+            1,
+            2,
+            5,
+            2
+          ]
+        },
+        "false_negatives": {
+          "total": 224,
+          "per_fold": [
+            41,
+            47,
+            26,
+            69,
+            41
+          ]
+        }
+      },
+      "EMAIL": {
+        "precision": {
+          "mean": 0.95,
+          "std": 0.09999999999999999,
+          "values": [
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "recall": {
+          "mean": 0.9857142857142858,
+          "std": 0.02857142857142856,
+          "values": [
+            1.0,
+            0.9285714285714286,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.9640211640211639,
+          "std": 0.055330863332915876,
+          "values": [
+            0.8571428571428571,
+            0.962962962962963,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "support": {
+          "total": 39,
+          "per_fold": [
+            3,
+            14,
+            5,
+            14,
+            3
+          ]
+        },
+        "predicted": {
+          "total": 39,
+          "per_fold": [
+            4,
+            13,
+            5,
+            14,
+            3
+          ]
+        },
+        "true_positives": {
+          "total": 38,
+          "per_fold": [
+            3,
+            13,
+            5,
+            14,
+            3
+          ]
+        },
+        "false_positives": {
+          "total": 1,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 1,
+          "per_fold": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "PHONE_NUM": {
+        "precision": {
+          "mean": 0.06666666666666667,
+          "std": 0.13333333333333333,
+          "values": [
+            0.3333333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.1,
+          "std": 0.20000000000000004,
+          "values": [
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.08,
+          "std": 0.16,
+          "values": [
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            2,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        "predicted": {
+          "total": 3,
+          "per_fold": [
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 1,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 2,
+          "per_fold": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 5,
+          "per_fold": [
+            1,
+            4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ID_NUM": {
+        "precision": {
+          "mean": 0.8939393939393939,
+          "std": 0.08677467311076575,
+          "values": [
+            0.8181818181818182,
+            1.0,
+            0.8181818181818182,
+            1.0,
+            0.8333333333333334
+          ]
+        },
+        "recall": {
+          "mean": 0.9007070707070707,
+          "std": 0.08313297002411317,
+          "values": [
+            0.9,
+            1.0,
+            0.75,
+            0.9444444444444444,
+            0.9090909090909091
+          ]
+        },
+        "f1": {
+          "mean": 0.8961490683229814,
+          "std": 0.07946272266317239,
+          "values": [
+            0.8571428571428572,
+            1.0,
+            0.7826086956521738,
+            0.9714285714285714,
+            0.8695652173913043
+          ]
+        },
+        "support": {
+          "total": 78,
+          "per_fold": [
+            10,
+            27,
+            12,
+            18,
+            11
+          ]
+        },
+        "predicted": {
+          "total": 78,
+          "per_fold": [
+            11,
+            27,
+            11,
+            17,
+            12
+          ]
+        },
+        "true_positives": {
+          "total": 72,
+          "per_fold": [
+            9,
+            27,
+            9,
+            17,
+            10
+          ]
+        },
+        "false_positives": {
+          "total": 6,
+          "per_fold": [
+            2,
+            0,
+            2,
+            0,
+            2
+          ]
+        },
+        "false_negatives": {
+          "total": 6,
+          "per_fold": [
+            1,
+            0,
+            3,
+            1,
+            1
+          ]
+        }
+      },
+      "STREET_ADDRESS": {
+        "precision": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recall": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "f1": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "support": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "true_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 2,
+          "per_fold": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      "USERNAME": {
+        "precision": {
+          "mean": 0.6,
+          "std": 0.48989794855663565,
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        "recall": {
+          "mean": 0.6,
+          "std": 0.48989794855663565,
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        "f1": {
+          "mean": 0.6,
+          "std": 0.48989794855663565,
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        },
+        "support": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "predicted": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "true_positives": {
+          "total": 6,
+          "per_fold": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "false_positives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "false_negatives": {
+          "total": 0,
+          "per_fold": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "URL_PERSONAL": {
+        "precision": {
+          "mean": 0.8225262237762238,
+          "std": 0.046571746541444886,
+          "values": [
+            0.78125,
+            0.7727272727272727,
+            0.8125,
+            0.9,
+            0.8461538461538461
+          ]
+        },
+        "recall": {
+          "mean": 0.6756892230576441,
+          "std": 0.1469559937364747,
+          "values": [
+            0.8928571428571429,
+            0.6071428571428571,
+            0.6190476190476191,
+            0.47368421052631576,
+            0.7857142857142857
+          ]
+        },
+        "f1": {
+          "mean": 0.730308101204653,
+          "std": 0.08132004658649723,
+          "values": [
+            0.8333333333333334,
+            0.68,
+            0.7027027027027026,
+            0.6206896551724138,
+            0.8148148148148148
+          ]
+        },
+        "support": {
+          "total": 110,
+          "per_fold": [
+            28,
+            28,
+            21,
+            19,
+            14
+          ]
+        },
+        "predicted": {
+          "total": 93,
+          "per_fold": [
+            32,
+            22,
+            16,
+            10,
+            13
+          ]
+        },
+        "true_positives": {
+          "total": 75,
+          "per_fold": [
+            25,
+            17,
+            13,
+            9,
+            11
+          ]
+        },
+        "false_positives": {
+          "total": 18,
+          "per_fold": [
+            7,
+            5,
+            3,
+            1,
+            2
+          ]
+        },
+        "false_negatives": {
+          "total": 35,
+          "per_fold": [
+            3,
+            11,
+            8,
+            10,
+            3
+          ]
+        }
+      }
+    }
+  },
+  "evaluation_type": "entity_level",
+  "note": "Uses seqeval - complete entity spans must match"
+}

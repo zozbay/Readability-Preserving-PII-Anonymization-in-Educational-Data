@@ -1,0 +1,207 @@
+{
+  "fold": 0,
+  "validation_file": "data/fold_0_val.json",
+  "methods": {
+    "rule": {
+      "precision": 0.022763366860772894,
+      "recall": 0.4201954397394137,
+      "f1": 0.043187144291931705,
+      "support": 307,
+      "readability_change": {
+        "flesch": 0.20240628802803384,
+        "fk_grade": -0.0282316099140757,
+        "fog": -0.0193720514408872
+      },
+      "detailed": {
+        "EMAIL": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 3
+        },
+        "ID_NUM": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1-score": 0.6666666666666665,
+          "support": 10
+        },
+        "NAME_STUDENT": {
+          "precision": 0.016469745793054064,
+          "recall": 0.34980988593155893,
+          "f1-score": 0.031458368951957597,
+          "support": 263
+        },
+        "PHONE_NUM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1
+        },
+        "URL_PERSONAL": {
+          "precision": 0.4057971014492754,
+          "recall": 1.0,
+          "f1-score": 0.577319587628866,
+          "support": 28
+        },
+        "micro avg": {
+          "precision": 0.022763366860772894,
+          "recall": 0.4201954397394137,
+          "f1-score": 0.043187144291931705,
+          "support": 307
+        },
+        "macro avg": {
+          "precision": 0.32037780787372155,
+          "recall": 0.49163498098859315,
+          "f1-score": 0.3554312467317246,
+          "support": 307
+        },
+        "weighted avg": {
+          "precision": 0.08287902926434179,
+          "recall": 0.4201954397394137,
+          "f1-score": 0.10969574829338219,
+          "support": 307
+        }
+      }
+    },
+    "presidio": {
+      "precision": 0.16962025316455695,
+      "recall": 0.6547231270358306,
+      "f1": 0.2694369973190348,
+      "support": 307,
+      "readability_change": {
+        "flesch": -0.0036601351512569385,
+        "fk_grade": 0.012031632364854777,
+        "fog": 0.012732197138318852
+      },
+      "detailed": {
+        "EMAIL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3
+        },
+        "ID_NUM": {
+          "precision": 0.022222222222222223,
+          "recall": 0.1,
+          "f1-score": 0.03636363636363636,
+          "support": 10
+        },
+        "NAME_STUDENT": {
+          "precision": 0.17185929648241205,
+          "recall": 0.6501901140684411,
+          "f1-score": 0.2718600953895071,
+          "support": 263
+        },
+        "PHONE_NUM": {
+          "precision": 0.1111111111111111,
+          "recall": 0.5,
+          "f1-score": 0.1818181818181818,
+          "support": 2
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1
+        },
+        "URL_PERSONAL": {
+          "precision": 0.20588235294117646,
+          "recall": 1.0,
+          "f1-score": 0.34146341463414637,
+          "support": 28
+        },
+        "micro avg": {
+          "precision": 0.16962025316455695,
+          "recall": 0.6547231270358306,
+          "f1-score": 0.2694369973190348,
+          "support": 307
+        },
+        "macro avg": {
+          "precision": 0.08517916379282031,
+          "recall": 0.3750316856780735,
+          "f1-score": 0.1385842213675786,
+          "support": 307
+        },
+        "weighted avg": {
+          "precision": 0.16745324202498943,
+          "recall": 0.6547231270358306,
+          "f1-score": 0.2664086430764469,
+          "support": 307
+        }
+      }
+    },
+    "customdeberta": {
+      "precision": 0.8996539792387543,
+      "recall": 0.8469055374592834,
+      "f1": 0.8724832214765103,
+      "support": 307,
+      "readability_change": {
+        "flesch": 0.01174658806965296,
+        "fk_grade": -0.0008864199985459283,
+        "fog": -0.0009606507327010452
+      },
+      "detailed": {
+        "EMAIL": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 3
+        },
+        "ID_NUM": {
+          "precision": 0.8181818181818182,
+          "recall": 0.9,
+          "f1-score": 0.8571428571428572,
+          "support": 10
+        },
+        "NAME_STUDENT": {
+          "precision": 0.9288702928870293,
+          "recall": 0.844106463878327,
+          "f1-score": 0.8844621513944223,
+          "support": 263
+        },
+        "PHONE_NUM": {
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1-score": 0.4,
+          "support": 2
+        },
+        "STREET_ADDRESS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1
+        },
+        "URL_PERSONAL": {
+          "precision": 0.78125,
+          "recall": 0.8928571428571429,
+          "f1-score": 0.8333333333333334,
+          "support": 28
+        },
+        "micro avg": {
+          "precision": 0.8996539792387543,
+          "recall": 0.8469055374592834,
+          "f1-score": 0.8724832214765103,
+          "support": 307
+        },
+        "macro avg": {
+          "precision": 0.6019392407336969,
+          "recall": 0.6894939344559116,
+          "f1-score": 0.6386801998355783,
+          "support": 307
+        },
+        "weighted avg": {
+          "precision": 0.9031477911328127,
+          "recall": 0.8469055374592834,
+          "f1-score": 0.8726050042114774,
+          "support": 307
+        }
+      }
+    }
+  }
+}
