@@ -215,6 +215,7 @@ pii-anonymization-in-educational-data/
 ├── main.py                            # Main entry point
 ├── save_datasets.py                   # Creates 5-fold splits
 ├── requirements.txt                   # Required Python dependencies
+├── download_models.py                 # Downloads fine-tuned models
 ├── structure.txt                      # Detailed file structure
 └── README.md                          # This file
 ```
