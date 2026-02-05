@@ -86,24 +86,26 @@ Create a models folder in root directory and place the downloaded models in mode
 ```
 
 **Overview of the Dataset:**
-{
-  "total_documents": 6807,
-  
-  "total_tokens": 4992533,
-  "pii_tokens": 2739,
-  "non_pii_tokens": 4989794
 
-  "total_entities": 1606,
-  "pii_counts": {
-    "NAME_STUDENT": 1365,
-    "URL_PERSONAL": 110,
-    "ID_NUM": 78,
-    "EMAIL": 39,
-    "USERNAME": 6,
-    "PHONE_NUM": 6,
-    "STREET_ADDRESS": 2
-  }
-}
+| Metric | Count |
+|--------|-------|
+| **Total Documents** | 6,807 |
+| **Total Tokens** | 4,992,533 |
+| **PII Tokens** | 2,739 |
+| **Non-PII Tokens** | 4,989,794 |
+| **Total PII Entities** | 1,606 |
+
+**PII Category Distribution:**
+
+| Category | Count |
+|----------|-------|
+| NAME_STUDENT | 1,365 |
+| URL_PERSONAL | 110 |
+| ID_NUM | 78 |
+| EMAIL | 39 |
+| USERNAME | 6 |
+| PHONE_NUM | 6 |
+| STREET_ADDRESS | 2 |
 
 ---
 
